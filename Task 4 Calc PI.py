@@ -2,24 +2,6 @@
 from tkinter import *
 from tkinter import ttk
 from tkinter import messagebox
-import docx
-
-#Creating Document ready
-doc = docx.Document()
-
-
-#Creating a Heading
-doc.add_Heading('Pi Calculator' ,1)
-
-
-doc.save('file.docx')
-
-#from PIL import Image
-
-#myimg = Image.open('pic.jpg')
-#myimg.size('500x300')
-#myimg.show()
-
 
 # FG Color
 fgColor = '#1e81b0'
